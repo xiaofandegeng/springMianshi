@@ -1,4 +1,4 @@
-package com.ning4256.javamian.circularDepenced;
+package com.ning4256.javamian.circularDepenced.constructorinjecttion;
 
 import org.springframework.stereotype.Component;
 
