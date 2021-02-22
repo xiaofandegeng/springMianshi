@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 public class ServiceAA {
     private ServiceBB serviceBB;
 
-    public ServiceAA(ServiceBB serviceBB) {
+    public void setServiceBB(ServiceBB serviceBB) {
         this.serviceBB = serviceBB;
-        System.out.println("serviceAA依赖了serviceBB");
+        System.out.println("serviceAA设置了serviceBB");
     }
 }
